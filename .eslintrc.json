@@ -3,8 +3,12 @@
 
   "plugins": ["react"],
 
-  "rules": {   
-     "react/jsx-uses-react": "error",   
-     "react/jsx-uses-vars": "error" 
+  "rules": {
+      "no-unused-vars": [
+          "error",
+          {
+              "varsIgnorePattern": "React"
+          }
+      ]
   }
 }
