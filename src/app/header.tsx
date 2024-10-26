@@ -1,18 +1,18 @@
 import { Menu } from "lucide-react";
-import { Badge } from "./ui/badge";
+import { Badge } from "./_components/ui/badge";
 import { Sheet,
   SheetContent,
   SheetHeader,
   SheetTitle,
   SheetTrigger, 
-  SheetClose } from "./ui/sheet";
+  SheetClose } from "./_components/ui/sheet";
 import Link from "next/link";
 
 
 export default function Header() {
  return (
-   <div className="bg-pink-950 flex justify-between p-5">
-    <h1>Jana.com</h1>
+   <div className="bg-pink-950 flex items-center justify-between p-5">
+    <h1 className="font-bold">JANA.COM</h1>
     <Sheet>
       <SheetTrigger>
         <Badge>
@@ -32,31 +32,31 @@ export default function Header() {
             </Badge>
           </Link>
 
-          <Link href="./pages/teste">
+          <Link href="/cartas">
             <Badge className="h-12 w-32 items-center flex justify-center">
                 CARTAS & POEMAS
             </Badge>
           </Link>
 
-          <Link href="./pages/teste">
+          <Link href="/fotos">
             <Badge className="h-12 w-32 items-center flex justify-center">
                 FOTOS
             </Badge>
           </Link>
 
-          <Link href="./pages/teste">
+          <Link href="/filmes">
             <Badge className="h-12 w-32 items-center flex justify-center">
                 FILMES FAVORITOS
             </Badge>
           </Link>
 
-          <Link href="./pages/teste">
+          <Link href="/jogos">
             <Badge className="h-12 w-32 items-center flex justify-center">
                 JOGOS
             </Badge>
           </Link>
 
-          <Link href="./pages/teste">
+          <Link href="/sobre">
             <Badge className="h-12 w-32 items-center flex justify-center">
                 SOBRE
             </Badge>

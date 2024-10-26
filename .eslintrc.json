@@ -1,5 +1,4 @@
 {
-  // "extends": ["next/core-web-vitals", "next/typescript"],
   "extends": [
     "eslint:recommended",
     "plugin:react/jsx-runtime",
