@@ -7,7 +7,7 @@ export default function Cartas() {
             <h1 className="text-4xl pt-6 mb-20 underline underline-offset-4">CARTAS PARA JANAÍNA</h1>
 
             {/* TEXTO 1 */}
-            <div className="flex flex-col p-4 border-b-2 border-dashed">
+            <div className="flex flex-col p-4 border-b-2 border-dashed w-full">
                 <span className="text-2xl text-center pb-5 font-bold italic">
                     Curitiba, 09 de Setembro de 2020
                 </span>
@@ -35,7 +35,7 @@ export default function Cartas() {
             </div>
 
             {/* TEXTO 2 */}
-            <div className="flex flex-col p-4 mt-12 border-b-2 border-dashed">
+            <div className="flex flex-col p-4 border-b-2 border-dashed w-full">
                 <span className="text-2xl text-center pb-5 font-bold italic">
                     Curitiba, 10 de Setembro de 2020
                 </span>
@@ -59,7 +59,7 @@ export default function Cartas() {
             </div>
 
             {/* TEXTO 3 */}
-            <div className="flex flex-col p-4 border-b-2 border-dashed">
+            <div className="flex flex-col p-4 border-b-2 border-dashed w-full">
                 <span className="text-2xl text-center pb-5 font-bold italic">
                     Curitiba, 08 de Novembro de 2020
                 </span>
@@ -98,7 +98,7 @@ export default function Cartas() {
             </div>
 
             {/* TEXTO 4 */}
-            <div className="flex flex-col p-4 border-b-2 border-dashed">
+            <div className="flex flex-col p-4 border-b-2 border-dashed w-full">
                 <span className="text-2xl text-center pb-5 font-bold italic">
                     Colombo, 23 de Dezembro de 2020
                 </span>
@@ -127,7 +127,7 @@ export default function Cartas() {
             </div>
 
             {/* TEXTO 5 */}
-            <div className="flex flex-col p-4 border-b-2 border-dashed">
+            <div className="flex flex-col p-4 border-b-2 border-dashed w-full">
                 <span className="text-2xl text-center pb-5 font-bold italic">
                     Colombo, 24 de Março de 2021
                 </span>
@@ -162,7 +162,7 @@ export default function Cartas() {
             </div>
 
             {/* TEXTO 6 */}
-            <div className="flex flex-col p-4 border-b-2 border-dashed">
+            <div className="flex flex-col p-4 border-b-2 border-dashed w-full">
                 <span className="text-2xl text-center pb-5 font-bold italic">
                     Colombo, 24 de Março de 2022
                 </span>
